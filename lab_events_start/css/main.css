@@ -1,4 +1,32 @@
 body, form {
   font-family: sans-serif;
+}
 
+h1 {
+
+  color: navy;
+}
+
+#btn {
+
+  margin-top:20px;
+  color:white;
+  width:100px;
+  height:30px;
+  background-color: orange;
+}
+
+p.red {
+
+  border: 1px solid red;
+  background-color: #dadada;
+  padding:10px;
+  border-radius: 25px;
+  width:25%;
+
+}
+
+.form-item {
+
+  display:inline;
 }

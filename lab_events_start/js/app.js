@@ -35,8 +35,8 @@ document.addEventListener('DOMContentLoaded', () => {
     body.appendChild(newReadingListItem)
     newReadingListItem.classList.add('red')
     newReadingListItem.textContent = `
-    ${event.target.title.value}
-    ${event.target.author.value}
+    ${event.target.title.value} -
+    ${event.target.author.value} -
     ${event.target.category.value}`
   }
 
